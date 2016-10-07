@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login | SaleProject</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <header>
+    	<h1>SaleProject</h1>
+    </header>
+    <div class="container">
+    	<h1 id="title">Please Login</h1>
+    	<div class="login">
+    		<form name = "login_form" method="POST" id="form" onsubmit="return validate_question_form()">
+    			<p>Email or Username</p>
+                <input type="text" name="user" id="user" />
+                <p>Password</p>
+    			<input type="password" name="password" id="password" />
+    			<input type="submit" name="login" id="login" value="LOGIN">
+    		</form>
+    	</div>
+    	<h3>Don't have an account yet? Register <a href="register.php">here</a></h3>
+    </div>
+    <footer>
+    	
+    </footer>
